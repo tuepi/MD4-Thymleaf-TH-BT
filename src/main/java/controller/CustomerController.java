@@ -61,5 +61,4 @@ public class CustomerController {
     public ModelAndView view(@PathVariable int id) {
         return new ModelAndView("/view", "customer", customerService.findById(id));
     }
-
 }
